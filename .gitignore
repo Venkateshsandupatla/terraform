@@ -1,0 +1,22 @@
+# Ignore ALL .terraform directories, no matter how deep
+**/.terraform/
+
+# Ignore Terraform lock files (usually per module)
+**/.terraform.lock.hcl
+
+# Ignore Terraform state files and backups
+**/*.tfstate
+**/*.tfstate.backup
+
+# Ignore crash logs and general logs
+**/crash.log
+**/*.log
+
+# Ignore executable binaries and zips (like provider .exe files)
+**/*.exe
+**/*.zip
+
+# System files (just in case)
+.DS_Store
+Thumbs.db
+
